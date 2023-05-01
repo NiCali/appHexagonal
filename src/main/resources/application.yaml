@@ -1,0 +1,16 @@
+server:
+    port: 8081
+spring:
+    data:
+        mongodb:
+            host: localhost
+            port: 27017
+            authentication-database: admin
+            username: root
+            password: example
+            database: hexagonal
+
+calixto:
+    client:
+        address:
+            url: https://viacep.com.br/ws
